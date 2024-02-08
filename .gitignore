@@ -1,0 +1,46 @@
+# Exclude everything
+/*
+
+# Specific includes
+
+## Editorconfig
+!.editorconfig
+
+## Build System/Scripts
+!/.config
+!/global.json
+!NuGet.Config
+!Directory.Build.props
+!Directory.Build.targets
+!build.sh
+!build.ps1
+!build.cmd
+
+## Markdowns
+!*.md
+!LICENSE
+
+## important Git files
+!.gitmodules
+!.gitignore
+!.gitattributes
+!.git-blame-ignore-revs
+
+## GitHub specific
+!.github/
+
+## Libraries
+!/libs
+
+## Solution
+!NoTerminalSway.sln
+
+### TwitchChaosWithoutTwitch Project
+!/NoTerminalSway
+/NoTerminalSway/[Bb]in
+/NoTerminalSway/[Oo]bj
+/NoTerminalSway*[Dd]ist
+
+# Explicit exceptions/ignores
+**.user
+!**.template.*.user
